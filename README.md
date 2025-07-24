@@ -1,25 +1,20 @@
-<p align="center">
-  <img alt="" src="/.github/assets/cover.png" />
-</p>
-
-<h1 align="center">
-  shadcn-portfolio
-</h1>
+# Martin Areso - Portfolio 2025
 
 <p align="center">
   <a aria-label="Framework" href="https://nextjs.org">
     <img alt="" src="https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=Next.js&labelColor=000">
   </a>
-  <img alt="" src="https://img.shields.io/github/languages/top/techwithanirudh/shadcn-portfolio?style=for-the-badge&labelColor=000">
-  <a aria-label="License" href="https://github.com/techwithanirudh/shadcn-portfolio/blob/main/LICENSE">
-    <img alt="" src="https://img.shields.io/github/license/techwithanirudh/shadcn-portfolio?style=for-the-badge&labelColor=000">
+  <a aria-label="TypeScript" href="https://www.typescriptlang.org/">
+    <img alt="" src="https://img.shields.io/badge/TypeScript-007ACC.svg?style=for-the-badge&logo=TypeScript&labelColor=000">
+  </a>
+  <a aria-label="TailwindCSS" href="https://tailwindcss.com">
+    <img alt="" src="https://img.shields.io/badge/Tailwind%20CSS-38B2AC.svg?style=for-the-badge&logo=Tailwind-CSS&labelColor=000">
   </a>
 </p>
 
-<p align="center"><i>
-  ⚡ This version is re-structured using TurboRepo.<br />
-  To use the old version, check out the <a href="https://github.com/techwithanirudh/shadcn-portfolio/tree/tailwind-v4">tailwind-v4 branch</a>.
-</i></p>
+<p align="center"><strong>
+  CTO & Fullstack SaaS Developer Portfolio - Built with Next.js 15, TailwindCSS, and shadcn/ui
+</strong></p>
 
 ## 📋 Table of Contents
 
@@ -31,14 +26,30 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-This is a portfolio template built using Next.JS, Framer Motion and Shadcn/UI.
+Personal portfolio of Martin Areso, CTO & Fullstack SaaS Developer specializing in modern web architectures, payment systems, and scalable applications.
 
 ## <a name="tech-stack">🚀 Tech Stack</a>
 
-- Next.js
+**Frontend:**
+- Next.js 15 with App Router
+- React 19
+- TypeScript
+- TailwindCSS
 - shadcn/ui
 - Framer Motion
-- Tailwind CSS
+
+**Backend Expertise:**
+- NestJS
+- Node.js
+- Laravel (PHP)
+- PostgreSQL
+- Prisma ORM
+
+**Deployment & DevOps:**
+- Sevalla.com
+- GitHub Actions
+- Docker
+- Terraform
 
 ## <a name="features">✨ Features</a>
 
@@ -58,8 +69,68 @@ This is a portfolio template built using Next.JS, Framer Motion and Shadcn/UI.
 
 ## <a name="getting-started">📚 Getting Started</a>
 
-Please refer to the [getting started guide](./GETTING_STARTED.md) for information on how to configure and run the
-portfolio template.
+### Prerequisites
+- Node.js 18+
+- pnpm (recommended)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/mort-lab/martin-portfolio-2025.git
+
+# Install dependencies
+pnpm install
+
+# Create environment file
+cp .env.example .env.local
+
+# Start development server
+pnpm dev
+```
+
+### Environment Variables
+
+Create a `.env.local` file with:
+
+```env
+# Resend (for contact form)
+EMAIL_FROM="onboarding@resend.dev"
+EMAIL_TO="mirurozk@gmail.com"
+RESEND_API_KEY="your_resend_api_key"
+
+# Feature flags
+NEXT_PUBLIC_CONTACT_FORM_ENABLED="true"
+NEXT_PUBLIC_CONTACT_AUTH_ENABLED="false"
+```
+
+### Branch Strategy
+
+- `main`: Primary development branch
+- `develop`: Feature development and testing
+- `production`: Production-ready code (auto-deployed to Sevalla)
+
+## 👨‍💻 About Martin Areso
+
+CTO & Fullstack SaaS Developer with expertise in:
+
+- 🏗️ Modern backend architectures (NestJS + PostgreSQL)
+- ⚡ High-performance frontend (Next.js + TailwindCSS)
+- 💳 Payment systems (Stripe, Stripe Connect)
+- 🔄 Real-time systems (WebSockets, Pusher)
+- 🚀 CI/CD and DevOps automation
+
+### Current Projects
+- **Trimio Learn**: Educational SaaS platform for specialized communities
+- **GetPolara.ai**: AI-powered video generation platform
+- Various Shopify apps and e-commerce solutions
+
+## 📞 Contact
+
+- **Email**: mirurozk@gmail.com
+- **GitHub**: [mort-lab](https://github.com/mort-lab)
+- **LinkedIn**: [martin-areso](https://www.linkedin.com/in/martin-areso/)
+- **Upwork**: [Profile](https://www.upwork.com/freelancers/~01555cf20ed1433307)
 
 ## <a name="credits">❤️ Credits</a>
 

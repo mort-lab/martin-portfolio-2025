@@ -1,0 +1,103 @@
+---
+title: GetPolara.ai - AI Video Generator
+description: AI-powered video generation platform developed as a freelance project. Complete system with credit-based payments and integrated AI APIs.
+date: 2025-05-01
+website: https://getpolara.ai/
+github: 
+tags:
+  - label: Laravel
+  - label: PHP
+  - label: NeonDB
+  - label: PostgreSQL
+  - label: Stripe
+  - label: Replicate API
+  - label: AI/ML
+  - label: Video Generation
+---
+
+GetPolara.ai is an AI-powered video generation platform I developed as a freelance project through Upwork. The platform enables users to create professional videos using advanced AI models, with a complete system of authentication, credit-based payments and automated subscription management.
+
+## Key Features
+
+- **AI Video Generation**: Integration with cutting-edge APIs to create high-quality videos.
+- **Credit System**: Flexible business model based on credit consumption per generated video.
+- **Complete Authentication**: Robust system for registration, login and user account management.
+- **Automated Payments**: Complete Stripe integration for credit purchases and subscriptions.
+- **Expiration Management**: Automated system for renewals and email notifications.
+
+## Technology Stack
+
+- **Backend**: Developed with **Laravel** leveraging its mature ecosystem and integrated tools.
+- **Database**: **PostgreSQL** on **NeonDB** for scalable and efficient storage.
+- **Payment Processing**: **Stripe** with credit system and recurring subscriptions.
+- **AI & Video**: **Replicate API** for access to state-of-the-art video generation models.
+- **Email Marketing**: Automated notification and email marketing system.
+- **Hosting**: Optimized implementation for handling heavy multimedia files.
+
+## Technical Implementation
+
+### Laravel Architecture
+
+- **MVC Pattern** with controllers organized by specific functionalities.
+- **Eloquent ORM** for efficient management of complex relationships between users, credits and videos.
+- **Laravel Queues** for asynchronous processing of videos and heavy tasks.
+- **API Resources** for consistent and well-structured JSON responses.
+
+### Credit System
+
+- **Flexible model** where each video type consumes different amounts of credits.
+- **Atomic transactions** ensuring consistency in purchases and consumption.
+- **Detailed history** of credit usage and video generation.
+- **Automatic alerts** when credits are about to run out.
+
+### AI Integration
+
+- **Replicate API** for access to multiple video generation models.
+- **Queue system** to handle AI jobs that can take several minutes.
+- **Webhook handling** to receive video completion notifications.
+- **Robust error handling** for generation failures or external APIs.
+
+### Payment System
+
+- **Stripe Checkout** for optimized payment experience.
+- **Stripe Webhooks** for secure payment confirmation.
+- **Failure handling** and automatic payment retries.
+- **Automatic billing** and international tax management.
+
+## How It Works
+
+1. **User Registration**: Simplified onboarding with automatic email verification.
+2. **Credit Purchase**: Selection of credit packages with tiered pricing.
+3. **Video Generation**: Intuitive interface to configure parameters and generate videos.
+4. **Processing**: Queue system processes AI jobs in the background.
+5. **Delivery**: Automatic notification when video is ready for download.
+
+## Achievements and Metrics
+
+- **1000+ registered users** in the first week of launch.
+- **100% functional payment system** from day one without critical errors.
+- **Optimized processing time** with queues for better user experience.
+- **High conversion rate** thanks to optimized UX and smooth onboarding.
+- **Zero downtime** during initial traffic spikes.
+
+## Technical Challenges Solved
+
+- **Heavy file handling** with storage and delivery optimization.
+- **Queue scalability** to process multiple videos simultaneously.
+- **Robust integration with external APIs** with failure handling and timeouts.
+- **Complex billing system** with different credit types and dynamic pricing.
+- **GDPR compliance** and international user data protection.
+
+## Project Impact
+
+- **Rapid market validation** with massive adoption at launch.
+- **Scalable architecture** prepared for exponential user growth.
+- **Smooth user experience** with positive feedback in reviews and testimonials.
+- **Profitable business model** from the first weeks of operation.
+
+## Emerging Technologies Integrated
+
+- **State-of-the-art AI models** through Replicate.
+- **Cost optimization** balancing video quality vs. credit consumption.
+- **Real-time monitoring** of AI API performance.
+- **A/B testing** to optimize conversion and user retention.

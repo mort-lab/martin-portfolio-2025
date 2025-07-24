@@ -2,25 +2,24 @@ import type { Skill } from "@/types/skill";
 
 const skills: Skill[] = [
   {
-    name: "Web Development",
-    // todo: use proper thumbnail pics
+    name: "Backend Development",
     thumbnail: "/images/skills/web-development.jpg",
-    description: `Web Development involves creating websites and web applications that are both visually appealing and highly functional. It encompasses a variety of technologies, frameworks, and best practices to ensure a seamless user experience and efficient performance.`,
+    description: `Specialized in modern backend architectures with NestJS, Node.js, Laravel (PHP) and Express. Experience in REST and GraphQL API design, microservices, authentication, authorization and architectural patterns like DDD. PostgreSQL database mastery with Prisma ORM.`,
   },
   {
-    name: "UI/UX Design",
+    name: "Frontend Development",
     thumbnail: "/images/skills/ui-ux-design.jpg",
-    description: `UI/UX Design focuses on creating delightful user experiences through visually appealing and highly functional designs. This skill includes a variety of technologies, frameworks, and best practices to enhance user satisfaction and usability.`,
+    description: `Professional frontend development with Next.js 15, React, TypeScript and TailwindCSS. Experience with shadcn/ui, Zustand, Radix UI, Server Actions and animations with Framer Motion. Focus on user experience, performance and modern responsive design.`,
   },
   {
-    name: "Database Management",
+    name: "Payment Systems",
     thumbnail: "/images/skills/database-management.jpg",
-    description: `Database Management involves efficiently storing and organizing data. This skill covers a range of technologies, frameworks, and best practices to ensure data integrity, security, and performance.`,
+    description: `Complete payment systems integration with Stripe and Stripe Connect. Experience in custom webhooks, subscriptions, automatic renewals, cancellations, credit management and payment marketplaces. Implementation of secure and reliable gateways.`,
   },
   {
-    name: "Mobile Development",
+    name: "DevOps & Infrastructure",
     thumbnail: "/images/skills/mobile-development.jpg",
-    description: `Mobile Development entails crafting apps for smartphones and tablets that are both visually appealing and highly functional. It includes a variety of technologies, frameworks, and best practices to provide a seamless user experience on mobile devices.`,
+    description: `CI/CD implementation with GitHub Actions, containerization with Docker, infrastructure as code with Terraform. Experience in automated deployment, autoscaling, load balancers, and cloud services. Automated testing with Jest and documentation with Swagger.`,
   },
 ];
 

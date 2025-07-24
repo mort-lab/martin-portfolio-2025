@@ -2,14 +2,21 @@ import type { FooterItem } from "@/types/footer";
 
 const footer: FooterItem[] = [
   {
-    title: "Home",
-    href: "#",
+    title: "GitHub",
+    href: "https://github.com/martinrueda",
+  },
+  {
+    title: "LinkedIn",
+    href: "https://linkedin.com/in/martinrueda-dev",
+  },
+  {
+    title: "Download CV",
+    href: "/cv-martin-rueda.pdf",
   },
 ];
 
 export const copyright = {
-  // Hardcoded to 2024 as this represents the project's inception year
-  startYear: 2024,
+  startYear: 2025,
 };
 
 export { footer };

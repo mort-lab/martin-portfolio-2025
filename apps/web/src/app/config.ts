@@ -2,20 +2,28 @@ import type { Metadata } from "@/types/metadata";
 
 const metadata: Metadata = {
   author: {
-    name: "John Doe",
-    username: "johndoe",
-    label: "Designer & Developer",
+    name: "Martín Areso",
+    username: "martinareo",
+    label: "CTO & Fullstack SaaS Developer",
   },
   site: {
-    title: "John Doe",
-    description: "Portfolio of web & UI designer/developer John Doe.",
-    url: "https://www.example.com",
+    title: "Martín Areso - CTO & Fullstack Developer",
+    description:
+      "CTO & Fullstack SaaS Developer specialized in modern architectures with NestJS, Next.js and scalable product development.",
+    url: "https://www.martin.trimio.net",
     keywords: [
-      "web design",
-      "UI design",
+      "CTO",
+      "Fullstack Developer",
+      "SaaS Developer",
+      "NestJS",
+      "Next.js",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "Stripe & Stripe Connect",
+      "Martín Areso",
       "web development",
-      "portfolio",
-      "John Doe",
+      "software architecture",
     ],
     language: "en",
     charset: "UTF-8",

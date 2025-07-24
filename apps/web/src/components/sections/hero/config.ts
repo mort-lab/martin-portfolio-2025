@@ -5,7 +5,7 @@ const hero: Hero = {
   name: meta.author.name,
   label: meta.author.label,
   description:
-    "I design and build beautiful websites. Welcome to my portfolio.",
+    "CTO & Fullstack SaaS Developer focused on designing solid, scalable products with excellent user experience. Specialist in modern backend architectures with NestJS + PostgreSQL and professional frontend development with Next.js + Tailwind.",
 };
 
 export { hero };
