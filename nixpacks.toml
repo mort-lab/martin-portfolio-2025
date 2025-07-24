@@ -1,0 +1,8 @@
+[phases.start]
+cmd = "cd apps/web && pnpm start"
+
+[build]
+staticDir = "apps/web/.next"
+
+[variables]
+PNPM_FLAGS = "--frozen-lockfile"
