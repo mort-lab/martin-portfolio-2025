@@ -7,7 +7,6 @@
 /* relative to the CSS file, make sure it's correct for your app */
 @source '../../../../node_modules/fumadocs-ui/dist/**/*.js';
 @source '../../../../packages/ui/src/*.{ts,tsx}';
-/* @source '../../../../node_modules/@fuma-comment/react/dist/**/*.js'; */
 
 @custom-variant dark (&:is(.dark *));
 
@@ -153,7 +152,8 @@
 
 @layer base {
   * {
-    @apply border-border m-0 box-border p-0;
+    @apply m-0 box-border p-0;
+    border-color: hsl(var(--border));
   }
 
   body {
