@@ -23,6 +23,13 @@
             "cache": false,
             "persistent": false
         },
+        "start": {
+            "dependsOn": [
+                "^build"
+            ],
+            "cache": false,
+            "persistent": true
+        },
         "format": {
             "outputs": [
                 ".cache/.prettiercache"
