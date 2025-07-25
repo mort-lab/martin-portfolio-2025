@@ -4,6 +4,6 @@ export const aboutConfig = {
   image: "/images/about/profile.jpg",
   cta: {
     label: "Download CV",
-    href: "/cv-martin-rueda.pdf",
+    href: "/cv-martin-areso-eng.pdf",
   },
 };

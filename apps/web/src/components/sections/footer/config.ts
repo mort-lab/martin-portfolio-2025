@@ -3,15 +3,15 @@ import type { FooterItem } from "@/types/footer";
 const footer: FooterItem[] = [
   {
     title: "GitHub",
-    href: "https://github.com/martinrueda",
+    href: "https://github.com/mort-lab",
   },
   {
     title: "LinkedIn",
-    href: "https://linkedin.com/in/martinrueda-dev",
+    href: "https://linkedin.com/in/martin-areso",
   },
   {
     title: "Download CV",
-    href: "/cv-martin-rueda.pdf",
+    href: "/cv-martin-areso-eng.pdf",
   },
 ];
 
