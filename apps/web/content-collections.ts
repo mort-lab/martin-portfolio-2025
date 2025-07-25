@@ -13,8 +13,8 @@ const projects = defineCollection({
     const docSchema = createDocSchema(z);
     return {
       ...docSchema,
-      website: z.string().optional(),
-      github: z.string().optional(),
+      website: z.union([z.string(), z.null(), z.undefined()]).optional().transform((val) => val === "" || val === null ? undefined : val),
+      github: z.union([z.string(), z.null(), z.undefined()]).optional().transform((val) => val === "" || val === null ? undefined : val),
       tags: z
         .array(
           z.object({
